@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  #href {
+    position: static;
+    height: 29px;
+    left: 3.65%;
+    right: 74.57%;
+    top: calc(50% - 29px/2 - 17.5px);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-decoration: none;
+    color: #0064EB;
+    background: #FFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin: 16px 0px;
+  }
+  
+  #href:hover {
+    color: red;
+    transition: all.3s;
+  }
+  
+  #description {
+    position: static;
+    height: 10px;
+    left: 3.65%;
+    right: 29.53%;
+    top: calc(50% - 19px/2 + 22.5px);
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    background: #FFF;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 16px 0px;
+  }
+  
+  #item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 24px 32px;
+    position: relative;
+    width: 877px;
+    height: 80px;
+    left: 31.84%;
+    top: 171px;
+    margin-bottom: 10px;
+    background: #FFFFFF;
+    border-radius: 6px;
+  }
+  
+  #name {
+    position: absolute;
+    height: 34px;
+    left: 4.1%;
+    top: 400px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 130%;
+    color: #000000;
+  }
+  
+  #login {
+    position: absolute;
+    height: 28.74px;
+    left: 4.1%;
+    right: 90%;
+    top: 435px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration: none;
+    color: #0064EB;
+  }
+  
+  #login:hover {
+    color: red;
+    transition: all.3s;
+  }
+  
+  #followers {
+    position: absolute;
+    left: 65px;
+    right: 85.14%;
+    top: 67.71%;
+    bottom: 29.17%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+  }
+  
+  #following {
+    position: absolute;
+    left: 250px;
+    top: 67.71%;
+    bottom: 29.17%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    color: #000000;
+  }
+  
